@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Raspberry Pi + OpenCV	http://www.raspberrypi.org/tag/opencv/
 Raspberry Pi + SPI	http://elinux.org/index.php?title=RPi_SPI
 SPI speed for High speed data acquisition	http://www.raspberrypi.org/forums/viewtopic.php?t=53088
@@ -6,6 +6,3 @@ Getting SPI working on Raspberry Pi	http://www.brianhensley.net/2012/07/getting-
 How Do I Setup SSH On Raspberry Pi	http://stackoverflow.com/questions/1346509/automate-scp-file-transfer-using-a-shell-scriptEn
 Cross-compile to Raspberry Pi	http://stackoverflow.com/questions/19162072/installing-raspberry-pi-cross-compiler
 How to cross compile for Raspberry Pi using Code::Blocks on Linux	http://mac-opencv-projects.blogspot.se/2014/03/how-to-cross-compile-for-raspberry-pi.html
-=======
-Raspberry Pi + OpenCV	http://www.raspberrypi.org/tag/opencv/Raspberry Pi + SPI	http://elinux.org/index.php?title=RPi_SPISPI speed for High speed data acquisition	http://www.raspberrypi.org/forums/viewtopic.php?t=53088Getting SPI working on Raspberry Pi	http://www.brianhensley.net/2012/07/getting-spi-working-on-raspberry-pi.htmlHow Do I Setup SSH On Raspberry Pi	http://stackoverflow.com/questions/1346509/automate-scp-file-transfer-using-a-shell-scriptEnCross-compile to Raspberry Pi	http://stackoverflow.com/questions/19162072/installing-raspberry-pi-cross-compilerHow to install OpenCV in ubuntu 12.04	http://karytech.blogspot.se/2012/05/opencv-24-on-ubuntu-1204.html
->>>>>>> 9278a78071c6d7ae59aa010c61cb1548d18f219a
