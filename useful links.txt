@@ -9,3 +9,4 @@ How to cross compile for Raspberry Pi using Code::Blocks on Linux	http://mac-ope
 QT opencv v4l cross compiling raspberry pi beagle bone	http://aplacetogeek.wordpress.com/qt-opencv-v4l-cross-compiling-raspberry-pi-beagle-bone/
 OpenCv Linux GCC Cmake http://docs.opencv.org/doc/tutorials/introduction/linux_gcc_cmake/linux_gcc_cmake.html
 RaspiCam: C++ API for using Raspberry camera with/without OpenCv	http://www.uco.es/investiga/grupos/ava/node/40
+RaspiCam cmake error fix	http://sourceforge.net/p/raspicam/tickets/2/
