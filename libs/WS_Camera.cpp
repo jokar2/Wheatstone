@@ -15,15 +15,15 @@ using namespace std;
 using namespace cv;
 
 int WS_InitCamera(RaspiCam_Cv *Camera){
-	if(DEBUG)cout<<"Setting format of output data to CV_8UC1"<<endl;
+	if(DEBUG)cout<<"\tWS_InitCamera: Setting format of output data to CV_8UC1"<<endl;
 	Camera->set(CV_CAP_PROP_FORMAT, CV_8UC1); //CV_8UC1 seems to be standard.
-	if(DEBUG)cout<<"Setting FPS to "<<FPS<<endl;
+	if(DEBUG)cout<<"\tWS_InitCamera: Setting FPS to "<<FPS<<endl;
 	Camera->set(CV_CAP_PROP_FPS, FPS);
-	if(DEBUG)cout<<"Setting frame dimensions to "<<WIDTH<<"x"<<HEIGHT<<endl;
+	if(DEBUG)cout<<"\tWS_InitCamera: Setting frame dimensions to "<<WIDTH<<"x"<<HEIGHT<<endl;
 	Camera->set(CV_CAP_PROP_FRAME_WIDTH, WIDTH);
 	Camera->set(CV_CAP_PROP_FRAME_HEIGHT, HEIGHT);
 
-	if(DEBUG)cout<<"Opening camera... "<<Camera->open()<<endl;
+	if(DEBUG)cout<<"\tWS_InitCamera: Opening camera... "<<Camera->open()<<endl;
 
 	return 0;
 }
