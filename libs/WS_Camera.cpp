@@ -75,9 +75,10 @@ int WS_Motion_Detection(RaspiCam_Cv *Camera, int sensitivity){ //When motion is 
 			}
 		}
 		waitKey(1);
+		if(DEBUG)cout<<"motion: "<<number_of_changes<<endl;
 		if(number_of_changes>sensitivity){
 			changes_in_row++;
-			if(DEBUG)cout<<"motion: "<<number_of_changes<<endl;
+			
 			if(changes_in_row>3){
 				if(DEBUG)cout<<"Motion detected"<<endl;
 				return 1;
