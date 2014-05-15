@@ -1,0 +1,29 @@
+This is an example program using the library in the Wheatstone project.
+
+#include "libs/WS_Camera.h"
+#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <opencv/highgui.h>
+#include <raspicam/raspicam_cv.h>
+
+using namespace std;
+using namespace cv;
+using namespace raspicam;
+
+char key;
+int main(int argc, char** argv )
+{
+	RaspiCam_Cv Camera; //Camera object
+
+	if(WS_InitCamera(&Camera,1)==-1){
+		cout<<"Exiting"<<endl;
+		return-1;
+	}
+	while(1){
+		if(WS_Motion_Detection_Vector(&Camera, 100)==1){
+			WS_RecordAndSend(&Camera);
+		}
+	}
+	Camera.release();
+	return 0;
+}
