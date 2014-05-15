@@ -160,7 +160,7 @@ void WS_RecordAndSend(RaspiCam_Cv *Camera){ //Starts the script file ./test.sh t
 	cout<<"Start recording"<<endl;
 	Camera->release(); //Releases the camera from openCV so that a video can be recorded in raspivid
 	if(fork()==0){
-		system("./test.sh"); //Records 5 sec and send the video via ssh to a remote computer
+		system("./libs/test.sh"); //Records 5 sec and send the video via ssh to a remote computer
 		exit(0);
 	}
 	else
